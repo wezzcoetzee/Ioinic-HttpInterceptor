@@ -1,5 +1,5 @@
-# Ionic-PinchZoom
-This is a basic application that shows you how to create a Pinch-Zoom for images, as well as panning. I noticed that using the native plugins would either blur the image, or did not allow for pinch to zoom. That is why I created this.
+# Ionic-HttpInterceptor
+This is a simple application that extends the HttpModule and appends a token to each rquest.
 
 # Installation
 
@@ -12,13 +12,7 @@ That's it, to run the project just use `ionic servce`
 
 # Usage
 
-the main code is stored in `src/pages/pinchzoompan`.
-
-You need to navigate to the page, passing through `NavParams` with the name `img`. The page loads up with a black background and the image displayed in the middle, fully zoomed out. The user can perform the following actions:
-
-* Pinch with two fingers to zoom
-* Pan with one finger to move the image around
-* Click the back button at the top to go back to the previous page.
+the main code is stored in `src/shared/interceptor/interceptor.ts`, there is also some logic within `app.module.ts`.
 
 # Contact
 
